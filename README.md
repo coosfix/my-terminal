@@ -1,0 +1,2 @@
+# my-terminal
+terminal setting
