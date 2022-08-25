@@ -6,4 +6,4 @@ Import-Module -Name Terminal-Icons
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias dd dotnet
-Set-Alias op 'start .'
+Set-Alias op start
