@@ -13,5 +13,10 @@ Set-Alias ll ls
 Set-Alias g git
 Set-Alias dd dotnet
 Set-Alias op start
+
+Function dotwatch {
+    Start-Process "dotnet" -ArgumentList "watch $args" -NoNewWindow -Wait
+}
+
 # Default Location
 #Set-Location E:\Git
